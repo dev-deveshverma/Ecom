@@ -158,7 +158,7 @@ p{
 
 #cartImage{
   height: 100%;
-  width: 12%;
+  width: 15%;
 }
 .flexdiv{
   display: flex;
@@ -203,15 +203,15 @@ p{
  font-weight: 300;
 }
 .Details>p:nth-child(5){
-  color: teal;
+  color: rgb(31, 167, 167);
   font-weight: 600;
 }
 .Details>button{
   height: 40px;
   margin-left: 5%;
-  background-color: rgb(168, 3, 3);
+  background-color: rgb(212, 54, 54);
   padding: 0% 2%;
-  color: whitesmoke;
+  color: rgb(213, 210, 210);
   border: none;
  
 }
@@ -225,8 +225,8 @@ p{
   margin-left: 82%;
   border: none;
   padding: 1% 2%;
-  background-color: rgb(8, 94, 41);
-  color: white;
+  background-color: rgb(32, 255, 24);
+  color: rgb(180, 18, 18);
 }
 
 
@@ -407,6 +407,7 @@ p{
     width: 150px;
     margin-left: 52%;
     height: 40px;
+ 
   }
 
   .paydiv{
@@ -426,5 +427,17 @@ p{
  
 }
 
+
+#cardimg{
+  height: 200px;
+  width: 200px;
+
+}
 /* Media queries ended */
 
+#mycartdiv{
+  height: 50px;
+  width: 1000px;
+  margin: auto;
+  
+}

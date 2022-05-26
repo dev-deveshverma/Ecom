@@ -5,7 +5,6 @@ import { useNavigate } from "react-router";
 export const Cart = ()=>{
               
     const [count,setCount] = useState(1)
-    const [carttotal,setCarttotal] = useState(0);
     const [flag,setFlag] = useState(false);
     const navigate = useNavigate()
 
@@ -24,9 +23,13 @@ export const Cart = ()=>{
               <div className="imgdiv"> <img  src={el.imgUrl} alt="" />
               </div>
                 <div className="counter">
-                    <button>+</button>
+                    <button onClick={()=>{
+                      setCount(count+1)
+                    }}>+</button>
                       <p>{count}</p>
-                       <button>-</button>
+                       <button onClick={()=>{
+                         setCount(count-1)
+                       }}>-</button>
                 </div>
                       <div className="Details">
                     <p>Price: {el.price}</p>

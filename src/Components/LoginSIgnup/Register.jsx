@@ -34,7 +34,7 @@ export const Signup = ()=>{
         
         if(name && email  && password ){
            
-            axios.post("http://localhost:3001/register",user).then(res=>{
+            axios.post("https://pcmobileee.herokuapp.com/register",user).then(res=>{
                 alert("register succesfull")
               navigate("/Signin")
         
