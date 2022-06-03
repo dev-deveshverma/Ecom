@@ -104,7 +104,7 @@ export const Cart = () => {
       <div>
         <p>Total : {total} </p>
         <button
-          onClick={() => navigate("/checkout")}
+          onClick={() => navigate("/signup")}
           id="payBtn"
         >
           Proceed to Checkout
