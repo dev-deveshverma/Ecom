@@ -34,7 +34,7 @@ export const DenimsDetails = () => {
               })
             if(temp.length==0){
                arr.push(el);
-               localStorage.setItem("cartData",JSON.stringify(arr));
+               localStorage.setItem("cartData",JSON.stringify(arr))||[];
                alert("Item add to  cart successful!!")
             
             }
