@@ -24,7 +24,8 @@ export const DenimsDetails = () => {
         let arr = JSON.parse(localStorage.getItem("cartData")) || [];
 
         function AddToCart(el){
-            let cart= JSON.parse(localStorage.getItem("cartData"));
+            let cart= JSON.parse(localStorage.getItem("cartData"))||[];
+
             let temp=   cart.filter((elem)=>{
                    if(elem.id==el.id){
                        return elem
@@ -34,7 +35,7 @@ export const DenimsDetails = () => {
               })
             if(temp.length==0){
                arr.push(el);
-               localStorage.setItem("cartData",JSON.stringify(arr))||[];
+               localStorage.setItem("cartData",JSON.stringify(arr)||[]);
                alert("Item add to  cart successful!!")
             
             }

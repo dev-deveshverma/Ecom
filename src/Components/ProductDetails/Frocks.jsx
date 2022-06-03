@@ -22,7 +22,8 @@ export const FrocksDetails = () => {
     //console.log(data)
          var arr = JSON.parse(localStorage.getItem("cartData")) || []
     const AddtoCart = (el)=>{
-         let cart= JSON.parse(localStorage.getItem("cartData"));
+        let cart= JSON.parse(localStorage.getItem("cartData"))||[];
+
          let temp=   cart.filter((elem)=>{
                 if(elem.id==el.id){
                     return elem

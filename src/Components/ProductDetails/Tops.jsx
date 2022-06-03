@@ -26,7 +26,8 @@ export const TopsDetails = () => {
     let arr = JSON.parse(localStorage.getItem("cartData")) || [];
 
     function AddToCart(el){
-        let cart= JSON.parse(localStorage.getItem("cartData"));
+        let cart= JSON.parse(localStorage.getItem("cartData"))||[];
+
         let temp=   cart.filter((elem)=>{
                if(elem.id==el.id){
                    return elem
