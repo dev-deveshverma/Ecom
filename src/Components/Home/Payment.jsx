@@ -29,13 +29,8 @@ export function Payment() {
 
       console.log(formData.cardNo.length)
 
-      if(formData.name!==""){
           navigate("/paymentsuccessful")
-      }
       
-      else{
-          alert("write correct details !")
-      }
 
      
     }
