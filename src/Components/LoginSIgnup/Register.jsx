@@ -1,3 +1,4 @@
+import "./Register.css"
 
 import {Link}  from "react-router-dom"
 import { useNavigate } from "react-router-dom"
@@ -5,13 +6,14 @@ import { useNavigate } from "react-router-dom"
 
 import  React, { useState } from "react"
 import axios from "axios"
-import "./Register.css"
+import { useDispatch } from "react-redux"
+import { Register_Request } from "../../Redux/singup/action"
 
 
 
 export const Signup = ()=>{
 
-
+ const dispatch=useDispatch();
     const navigate =useNavigate()
     const [user,setUser] = useState({
         name:"",
@@ -34,14 +36,12 @@ export const Signup = ()=>{
         
         if(name && email  && password ){
            
-            axios.post("https://pcmobileee.herokuapp.com/register",user).then(res=>{
-                alert("register succesfull")
-              navigate("/Signin")
-        
-        })
+          dispatch(Register_Request(user,navigate))
+            
+        }
            
 
-        }else{
+        else{
             alert ("Please fill all the spaces")
         }
        

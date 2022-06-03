@@ -1,6 +1,7 @@
 import { Login } from "@mui/icons-material"
 import {Routes , Route} from "react-router"
 import { Cart } from "../Components/Home/Cart"
+import Checkout from "../Components/Home/Checkout"
 import { Home } from "../Components/Home/Home"
 import { Payment } from "../Components/Home/Payment"
 import { PaymentSuccessful } from "../Components/Home/PaymentSuccessful"
@@ -46,11 +47,8 @@ export const AllRoutes =() => {
             <Route path ="/paymentsuccessful" element ={<PaymentSuccessful />}/>
             <Route path="/signin" element={<Signin/>}/>
             <Route path="/signup" element={<Signup/>}/>
+            <Route path='/checkout' element={<Checkout/>}/>
            
-          
-         
-
-            
         </Routes>
     )
 }

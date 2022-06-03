@@ -1,0 +1,117 @@
+[{
+    "id":71,
+    "imgUrl" :"https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/productimage/2021/4/10/9e85c6cd-3c3c-4b27-85c9-16e7b14a5f681618035750282-1.jpg",
+    "price" :"1030",
+    "size" : "small" ,
+    "colour" :"skyblue" ,
+    "brand" :"ajio",
+    "quantity":1
+},
+{
+    "id":72,
+    "imgUrl" :"https://assets.ajio.com/medias/sys_master/root/h64/ha6/14040348688414/-1117Wx1400H-461014015-pink-MODEL.jpg",
+    "price" :"2040",
+    "size" :"small" ,
+    "colour" : "pink",
+    "brand" : "ajio",
+    "quantity":1
+    
+},
+
+{  
+    "id":73,
+    "imgUrl" :"https://img.shopstyle-cdn.com/sim/f0/ef/f0ef90fb8299853de8636ff511620a80_best/allegra-k-womens-button-down-long-sleeve-elastic-ruffled-cuffs-peter-pan-collar-shirt-blouse-white-16.jpg",
+    "price" :"3100",
+    "size" : "extra large",
+    "colour" : "blue",
+    "brand" :"gucci",
+    "quantity":1
+},
+{         
+    "id":74,
+    "imgUrl" :"https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/7269197/2018/9/26/3ed3c8f9-84c8-4698-ab3a-3bbdf31ea0d01537963405698-La-Zoire-Women-Dusty-Pink-Solid-Top-3241537963405484-1.jpg",
+    "price" :"1800",
+    "size" : "large",
+    "colour" :"pink" ,
+    "brand" : "levis",
+    "quantity":1
+},
+
+{   
+    "id":75,
+    "imgUrl" :"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/9657067/2019/5/27/ffe8539c-ece8-4b00-b49a-638da8524c501558950900001-plusS-Women-Tops-7371558950899289-1.jpg",
+    "price" :"800",
+    "size" : "large",
+    "colour" : "green",
+    "brand" : "gucci",
+    "quantity":1
+},
+{
+    "id":76,
+    "imgUrl" :"https://cdn.shopify.com/s/files/1/0634/1790/9469/products/xl-tttp003961-tokyo-talkies-original-imafxqnnmhcrtnyg.jpg?v=1646840081",
+    "price" : "3000",
+    "size" : "extra large",
+    "colour" : "yellow",
+    "brand" : "levis",
+    "quantity":1
+},
+
+{    
+    "id":77,
+    "imgUrl" :"https://img.faballey.com/images/product/TOP04860Z/1.jpg",
+    "price" : "2040",
+    "size" : "large",
+    "colour" : "white",
+    "brand" : "shein",
+    "quantity":1
+},
+
+
+{
+    "id":78,
+    "imgUrl" :"https://assets.ajio.com/medias/sys_master/root/20211207/0HMN/61af9213aeb2690110fd6ba2/-473Wx593H-462559451-multi-MODEL.jpg",
+    "price" :"1000",
+    "size" : "small",
+    "colour" :"skyblue" ,
+    "brand" :"ajio",
+    "quantity":1
+},
+{    
+    "id":79,
+    "imgUrl" :"https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/productimage/2021/2/18/07b7a314-decd-421a-b447-01b2411e24e61613643428870-1.jpg",
+    "price" :"2300",
+    "size" : "small",
+    "colour" :"black" ,
+    "brand" :"ajio",
+    "quantity":1
+},
+{
+    "id":80,
+    "imgUrl" :"https://img.faballey.com/images/Product/TOP05298Z/1.jpg",
+    "price" :"2000",
+    "size" : "large",
+    "colour" : "pink",
+    "brand" :"shein",
+    "quantity":1
+},
+
+
+{
+    "id":81,
+    "imgUrl" :"https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010433681-Blue-Navy-1000010433681_01-2100.jpg",
+    "price" :"1600",
+    "size" : "small",
+    "colour" :"blue" ,
+    "brand" :"gucci",
+    "quantity":1
+},
+
+{ 
+    "id":82,
+    "imgUrl" :"https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000010444516-Grey-Sage-1000010444516_01-2100.jpg",
+    "price" :"1200",
+    "size" : "extra large",
+    "colour" : "skyblue",
+    "brand" :"gucci",
+    "quantity":1
+}]

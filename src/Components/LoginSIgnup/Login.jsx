@@ -4,11 +4,14 @@ import {Link}  from "react-router-dom"
  import axios  from "axios"
 import "./Login.css"
 import { useNavigate } from "react-router-dom"
+import { useDispatch } from "react-redux"
+import { Login_Request } from "../../Redux/signin/action"
 
 
 
 
 export const Signin  = ()=>{
+    const dispatch=useDispatch()
 
     const  navigate =useNavigate()
     const [user,setUser] = useState({
@@ -36,14 +39,7 @@ export const Signin  = ()=>{
 
 
     const login  =() =>{
-        axios.post("https://pcmobileee.herokuapp.com/login",user)
-        .then(res=>{alert("login successful ")
-           
-                navigate("/")
-            }
-           
-        
-        )
+        dispatch(Login_Request(user,navigate))
     }
 
 

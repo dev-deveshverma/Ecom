@@ -5,7 +5,8 @@
         "price" :"1030",
         "size" : "small" ,
         "colour" :"skyblue" ,
-        "brand" :"ajio"
+        "brand" :"ajio",
+        "quantity":"1"
     },
     {
         "id":2,
@@ -13,7 +14,9 @@
         "price" :"2040",
         "size" :"small" ,
         "colour" : "pink",
-        "brand" : "ajio"
+        "brand" : "ajio",
+        "quantity":"1"
+        
     },
 
     {  
@@ -22,7 +25,8 @@
         "price" :"3100",
         "size" : "extra large",
         "colour" : "blue",
-        "brand" :"gucci"
+        "brand" :"gucci",
+        "quantity":"1"
     },
     {         
         "id":4,
@@ -30,7 +34,8 @@
         "price" :"1800",
         "size" : "large",
         "colour" :"pink" ,
-        "brand" : "levis"
+        "brand" : "levis",
+        "quantity":"1"
     },
     
     {   
@@ -39,7 +44,8 @@
         "price" :"800",
         "size" : "large",
         "colour" : "green",
-        "brand" : "gucci"
+        "brand" : "gucci",
+        "quantity":"1"
     },
     {
         "id":8,
@@ -47,7 +53,8 @@
         "price" : "3000",
         "size" : "extra large",
         "colour" : "yellow",
-        "brand" : "levis"
+        "brand" : "levis",
+        "quantity":"1"
     },
    
     {    
@@ -56,7 +63,8 @@
         "price" : "2040",
         "size" : "large",
         "colour" : "white",
-        "brand" : "shein"
+        "brand" : "shein",
+        "quantity":"1"
     },
    
    
@@ -66,7 +74,8 @@
         "price" :"1000",
         "size" : "small",
         "colour" :"skyblue" ,
-        "brand" :"ajio"
+        "brand" :"ajio",
+        "quantity":"1"
     },
     {    
         "id":5,
@@ -74,7 +83,8 @@
         "price" :"2300",
         "size" : "small",
         "colour" :"black" ,
-        "brand" :"ajio"
+        "brand" :"ajio",
+        "quantity":"1"
     },
     {
         "id":6,
@@ -82,7 +92,8 @@
         "price" :"2000",
         "size" : "large",
         "colour" : "pink",
-        "brand" :"shein"
+        "brand" :"shein",
+        "quantity":"1"
     },
    
    
@@ -92,7 +103,8 @@
         "price" :"1600",
         "size" : "small",
         "colour" :"blue" ,
-        "brand" :"gucci"
+        "brand" :"gucci",
+        "quantity":"1"
     },
 
     { 
@@ -101,7 +113,8 @@
         "price" :"1200",
         "size" : "extra large",
         "colour" : "skyblue",
-        "brand" :"gucci"
+        "brand" :"gucci",
+        "quantity":"1"
     }],
 
      
@@ -111,7 +124,8 @@
         "price" :"2300",
         "size" : "small",
         "colour" :"green" ,
-        "brand" :"ajio"
+        "brand" :"ajio",
+        "quantity":"1"
     },
     {
         "id":2,
@@ -119,7 +133,8 @@
         "price" :"3100",
         "size" : "small",
         "colour" :"blue" ,
-        "brand" :"shein"
+        "brand" :"shein",
+        "quantity":"1"
     },
     {
         "id":3,
@@ -127,7 +142,8 @@
         "price" :"1400",
         "size" : "small",
         "colour" :"white" ,
-        "brand" :"levis"
+        "brand" :"levis",
+        "quantity":"1"
     },
 
     {
@@ -136,7 +152,8 @@
         "price" :"3300",
         "size" : "small",
         "colour" :"green" ,
-        "brand" :"ajio"
+        "brand" :"ajio",
+        "quantity":"1"
     },
    
     {
@@ -145,7 +162,8 @@
         "price" :"2100",
         "size" : "small",
         "colour" :"white" ,
-        "brand" :"gucci"
+        "brand" :"gucci",
+        "quantity":"1"
     },
     
     {
@@ -154,7 +172,8 @@
         "price" :"1300",
         "size" : "small",
         "colour" :"pink" ,
-        "brand" :"shein"
+        "brand" :"shein",
+        "quantity":"1"
     },
     {
         "id":7,
@@ -162,7 +181,8 @@
         "price" :"1000",
         "size" : "small",
         "colour" :"blue" ,
-        "brand" :"gucci"
+        "brand" :"gucci",
+        "quantity":"1"
     },
     {
         "id":13,
@@ -170,7 +190,8 @@
         "price" :"2000",
         "size" : "extralarge",
         "colour" :"black" ,
-        "brand" :"levis"
+        "brand" :"levis",
+        "quantity":"1"
     },
     {
         "id":14,
@@ -178,7 +199,8 @@
         "price" :"2000",
         "size" : "extralarge",
         "colour" :"brown" ,
-        "brand" :"levis"
+        "brand" :"levis",
+        "quantity":"1"
     },
     {
         "id":8,
@@ -186,7 +208,8 @@
         "price" :"900",
         "size" : "small",
         "colour" :"pink" ,
-        "brand" :"ajio"
+        "brand" :"ajio",
+        "quantity":"1"
     },
     {
         "id":9,
@@ -194,7 +217,8 @@
         "price" :"2000",
         "size" : "small",
         "colour" :"skyblue" ,
-        "brand" :"levis"
+        "brand" :"levis",
+        "quantity":"1"
     },
    
     {
@@ -203,7 +227,8 @@
         "price" :"3800",
         "size" : "small",
         "colour" :"yellow" ,
-        "brand" :"ajio"
+        "brand" :"ajio",
+        "quantity":"1"
     },
 
      {
@@ -212,7 +237,8 @@
         "price" :"2800",
         "size" : "small",
         "colour" :"green" ,
-        "brand" :"shein"
+        "brand" :"shein",
+        "quantity":"1"
     },
 
     {
@@ -221,7 +247,8 @@
         "price" :"2800",
         "size" : "large",
         "colour" :"black" ,
-        "brand" :"shein"
+        "brand" :"shein",
+        "quantity":"1"
     },
     
     {
@@ -230,7 +257,8 @@
         "price" :"5900",
         "size" : "small",
         "colour" :"pink" ,
-        "brand" :"gucci"
+        "brand" :"gucci",
+        "quantity":"1"
     }],
 
    "denims" :[ 
@@ -241,7 +269,8 @@
         "price" :"6800",
         "size" : "small",
         "colour" :"blue" ,
-        "brand" :"levis"
+        "brand" :"levis",
+        "quantity":"1"
     },
     {
         "id":11,
@@ -249,7 +278,8 @@
         "price" :"1800",
         "size" : "large",
         "colour" :"black" ,
-        "brand" :"ajio"
+        "brand" :"ajio",
+        "quantity":"1"
     },
     
     {
@@ -258,7 +288,8 @@
         "price" :"2800",
         "size" : "large",
         "colour" :"pink" ,
-        "brand" :"ajio"
+        "brand" :"ajio",
+        "quantity":"1"
     },
 
        {
@@ -267,7 +298,8 @@
         "price" :"900",
         "size" : "small",
         "colour" :"black" ,
-        "brand" :"gucci"
+        "brand" :"gucci",
+        "quantity":"1"
     },
     {
         "id":2,
@@ -275,7 +307,8 @@
         "price" :"4800",
         "size" : "large",
         "colour" :"brown" ,
-        "brand" :"ajio"
+        "brand" :"ajio",
+        "quantity":"1"
     },
     
     
@@ -286,7 +319,8 @@
     "price" :"2800",
     "size" : "small",
     "colour" :"blue" ,
-    "brand" :"levis"
+    "brand" :"levis",
+    "quantity":"1"
 },
 
 {
@@ -295,7 +329,8 @@
     "price" :"2800",
     "size" : "small",
     "colour" :"blue" ,
-    "brand" :"levis"
+    "brand" :"levis",
+    "quantity":"1"
 },
 {
     "id":5,
@@ -303,7 +338,8 @@
     "price" :"1300",
     "size" : "extralarge",
     "colour" :"black" ,
-    "brand" :"gucci"
+    "brand" :"gucci",
+    "quantity":"1"
 },
 {
     "id":6,
@@ -311,7 +347,8 @@
     "price" :"1800",
     "size" : "large",
     "colour" :"blue" ,
-    "brand" :"ajio"
+    "brand" :"ajio",
+    "quantity":"1"
 },
 
 {
@@ -320,7 +357,8 @@
     "price" :"1500",
     "size" : "extralarge",
     "colour" :"brown" ,
-    "brand" :"levis"
+    "brand" :"levis",
+    "quantity":"1"
 },
 {
     "id":8,
@@ -328,7 +366,8 @@
     "price" :"1200",
     "size" : "small",
     "colour" :"pink" ,
-    "brand" :"shein"
+    "brand" :"shein",
+    "quantity":"1"
 },
 {
     "id":9,
@@ -336,7 +375,8 @@
     "price" :"2900",
     "size" : "extralarge",
     "colour" :"brown" ,
-    "brand" :"gucci"
+    "brand" :"gucci",
+    "quantity":"1"
 }
     
    ],
@@ -349,7 +389,8 @@
             "price" :"2700",
             "size" : "small",
             "colour" :"black" ,
-            "brand" :"levis"
+            "brand" :"levis",
+            "quantity":"1"
         },
 
      {
@@ -358,7 +399,8 @@
         "price" :"4000",
         "size" : "small",
         "colour" :"green" ,
-        "brand" :"gucci"
+        "brand" :"gucci",
+        "quantity":"1"
     },
     {
         "id":3,
@@ -366,7 +408,8 @@
         "price" :"2000",
         "size" : "small",
         "colour" :"pink" ,
-        "brand" :"shein"
+        "brand" :"shein",
+        "quantity":"1"
     },
     {
         "id":4,
@@ -374,7 +417,8 @@
         "price" :"2400",
         "size" : "small",
         "colour" :"blue" ,
-        "brand" :"gucci"
+        "brand" :"gucci",
+        "quantity":"1"
     },
     { 
         "id":5,
@@ -382,7 +426,8 @@
         "price" :"3800",
         "size" : "small",
         "colour" :"black" ,
-        "brand" :"ajio"
+        "brand" :"ajio",
+        "quantity":"1"
     },   
  
     {
@@ -391,7 +436,8 @@
         "price" :"2800",
         "size" : "small",
         "colour" :"pink" ,
-        "brand" :"levis"
+        "brand" :"levis",
+        "quantity":"1"
     },
     {
         "id":7,
@@ -399,7 +445,8 @@
         "price" :"2800",
         "size" : "small",
         "colour" :"pink" ,
-        "brand" :"levis"
+        "brand" :"levis",
+        "quantity":"1"
 
    },
     
@@ -409,7 +456,8 @@
         "price" :"1200",
         "size" : "small",
         "colour" :"green" ,
-        "brand" :"gucci"
+        "brand" :"gucci",
+        "quantity":"1"
     },
 
     {
@@ -418,7 +466,8 @@
         "price" :"1290",
         "size" : "small",
         "colour" :"pink" ,
-        "brand" :"ajio"
+        "brand" :"ajio",
+        "quantity":"1"
     },
 
      {
@@ -427,7 +476,8 @@
          "price" :"1300",
          "size" : "small",
          "colour" :"white" ,
-         "brand" :"shein"
+         "brand" :"shein",
+         "quantity":"1"
      },
 
      {
@@ -436,7 +486,8 @@
         "price" :"1200",
         "size" : "small",
         "colour" :"brown" ,
-        "brand" :"levis"
+        "brand" :"levis",
+        "quantity":"1"
     },
      {
         "id":12,
@@ -444,7 +495,8 @@
          "price" :"2900",
          "size" : "small",
          "colour" :"blue" ,
-         "brand" :"ajio"
+         "brand" :"ajio",
+         "quantity":"1"
      },
      
      {
@@ -453,7 +505,8 @@
         "price" :"2000",
         "size" : "small",
         "colour" :"black" ,
-        "brand" :"gucci"
+        "brand" :"gucci",
+        "quantity":"1"
      },
 
      {
@@ -462,7 +515,8 @@
         "price" :"3000",
         "size" : "small",
         "colour" :"skyblue" ,
-        "brand" :"ajio"
+        "brand" :"ajio",
+        "quantity":"1"
      },
 
     
@@ -472,7 +526,8 @@
          "price" :"2800",
          "size" : "small",
          "colour" :"green" ,
-         "brand" :"levis"
+         "brand" :"levis",
+         "quantity":"1"
     }],
 
     "jackets" : [{
@@ -481,7 +536,8 @@
          "price" :"1900",
          "size" : "small",
          "colour" :"blue" ,
-         "brand" :"levis"
+         "brand" :"levis",
+         "quantity":"1"
         },
 
         {
@@ -490,7 +546,8 @@
              "price" :"1200",
              "size" : "small",
              "colour" :"black" ,
-             "brand" :"shein"
+             "brand" :"shein",
+             "quantity":"1"
         },
 
         {
@@ -499,7 +556,8 @@
              "price" :"700",
              "size" : "small",
              "colour" :"skyblue" ,
-             "brand" :"levis"
+             "brand" :"levis",
+             "quantity":"1"
         },
 
         {
@@ -508,7 +566,8 @@
              "price" :"1000",
              "size" : "small",
              "colour" :"yellow" ,
-             "brand" :"shein"
+             "brand" :"shein",
+             "quantity":"1"
         },
 
         {
@@ -517,7 +576,8 @@
              "price" :"2200",
              "size" : "small",
              "colour" :"blue" ,
-             "brand" :"gucci"
+             "brand" :"gucci",
+             "quantity":"1"
         },
         {
             "id":6,
@@ -525,7 +585,8 @@
              "price" :"1300",
              "size" : "small",
              "colour" :"pink" ,
-             "brand" :"ajio"
+             "brand" :"ajio",
+             "quantity":"1"
         },
         {
             "id":7,
@@ -533,7 +594,8 @@
              "price" :"500",
              "size" : "small",
              "colour" :"black" ,
-             "brand" :"ajio"
+             "brand" :"ajio",
+             "quantity":"1"
         },
         {
             "id":8,
@@ -541,7 +603,8 @@
              "price" :"700",
              "size" : "small",
              "colour" :"pink" ,
-             "brand" :"gucci"
+             "brand" :"gucci",
+             "quantity":"1"
         },
 
         {
@@ -550,7 +613,8 @@
              "price" :"900",
              "size" : "small",
              "colour" :"skyblue" ,
-             "brand" :"ajio"
+             "brand" :"ajio",
+             "quantity":"1"
         },
 
         {
@@ -559,7 +623,8 @@
              "price" :"3000",
              "size" : "small",
              "colour" :"pink" ,
-             "brand" :"shein"
+             "brand" :"shein",
+             "quantity":"1"
         },
 
         {
@@ -568,7 +633,8 @@
              "price" :"3200",
              "size" : "small",
              "colour" :"green" ,
-             "brand" :"levis"
+             "brand" :"levis",
+             "quantity":"1"
         },
       
         {
@@ -577,7 +643,8 @@
              "price" :"1080",
              "size" : "small",
              "colour" :"yellow" ,
-             "brand" :"ajio"
+             "brand" :"ajio",
+             "quantity":"1"
         }],
 
         "middis" : [
@@ -587,7 +654,8 @@
                  "price" :"800",
                  "size" : "small",
                  "colour" :"pink" ,
-                 "brand" :"gucci"
+                 "brand" :"gucci",
+                 "quantity":"1"
             },
             {
                 "id":2,
@@ -595,7 +663,8 @@
                  "price" :"5100",
                  "size" : "small",
                  "colour" :"black" ,
-                 "brand" :"levis"
+                 "brand" :"levis",
+                 "quantity":"1"
             },
             {
                 "id":3,
@@ -603,7 +672,8 @@
                  "price" :"4100",
                  "size" : "large",
                  "colour" :"white" ,
-                 "brand" :"shein"
+                 "brand" :"shein",
+                 "quantity":"1"
             },
             {
                 "id":4,
@@ -611,7 +681,8 @@
                  "price" :"2700",
                  "size" : "extra large",
                  "colour" :"black" ,
-                 "brand" :"gucci"
+                 "brand" :"gucci",
+                 "quantity":"1"
             },
             {
                 "id":5,
@@ -619,7 +690,8 @@
                  "price" :"3800",
                  "size" : "extralarge",
                  "colour" :"skyblue" ,
-                 "brand" :"shein"
+                 "brand" :"shein",
+                 "quantity":"1"
             },
            
             {
@@ -628,7 +700,8 @@
                  "price" :"2100",
                  "size" : "large",
                  "colour" :"pink" ,
-                 "brand" :"gucci"
+                 "brand" :"gucci",
+                 "quantity":"1"
             },
             {
                 "id":7,
@@ -636,7 +709,8 @@
                  "price" :"3100",
                  "size" : "small",
                  "colour" :"green" ,
-                 "brand" :"gucci"
+                 "brand" :"gucci",
+                 "quantity":"1"
             },
             {
                 "id":8,
@@ -644,7 +718,8 @@
                  "price" :"42000",
                  "size" : "small",
                  "colour" :"white" ,
-                 "brand" :"levis"
+                 "brand" :"levis",
+                 "quantity":"1"
             },
             {
                 "id":9,
@@ -652,7 +727,8 @@
                  "price" :"1900",
                  "size" : "large",
                  "colour" :"white" ,
-                 "brand" :"ajio"
+                 "brand" :"ajio",
+                 "quantity":"1"
             },
             {
                 "id":10,
@@ -660,7 +736,8 @@
                  "price" :"2200",
                  "size" : "small",
                  "colour" :"yellow" ,
-                 "brand" :"shein"
+                 "brand" :"shein",
+                 "quantity":"1"
             },
             {
                 "id":11,
@@ -668,7 +745,8 @@
                  "price" :"2800",
                  "size" : "small",
                  "colour" :"brown" ,
-                 "brand" :"levis"
+                 "brand" :"levis",
+                 "quantity":"1"
             },
             {
                 "id":12,
@@ -676,7 +754,8 @@
                  "price" :"1500",
                  "size" : "small",
                  "colour" :"blue" ,
-                 "brand" :"ajio"
+                 "brand" :"ajio",
+                 "quantity":"1"
             },
            
             {
@@ -685,7 +764,8 @@
                  "price" :"3000",
                  "size" : "small",
                  "colour" :"pink" ,
-                 "brand" :"ajio"
+                 "brand" :"ajio",
+                 "quantity":"1"
             },
             {
                 "id":14,
@@ -693,7 +773,8 @@
                  "price" :"4000",
                  "size" : "extralarge",
                  "colour" :"black" ,
-                 "brand" :"gucci"
+                 "brand" :"gucci",
+                 "quantity":"1"
             },
             {
                 "id":15,
@@ -701,7 +782,8 @@
                  "price" :"2080",
                  "size" : "large",
                  "colour" :"green" ,
-                 "brand" :"ajio"
+                 "brand" :"ajio",
+                 "quantity":"1"
             }
         ]
 

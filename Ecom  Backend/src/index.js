@@ -9,7 +9,7 @@ app.use( express.json());
 app.use(cors())
 const connect = require("./configs/db");
 
- const port = process.env.PORT || 3002;
+ const port = 3002;
 
 const topsController = require("./controllers/tops.controller");
 const kurtisController = require("./controllers/kurtis.controller");

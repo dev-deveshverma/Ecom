@@ -1,104 +1,119 @@
-[{
-    "id":1,
-    "imgUrl" : "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/lifestyle/1000009803866-Var3-MidBlue-1000009803866-Var3_01-2100.jpg",
-     "price" :"1900",
-     "size" : "small",
-     "colour" :"blue" ,
-     "brand" :"levis"
-    },
+[ 
 
+    {
+        "id":1,
+        "imgUrl" : "https://storage.googleapis.com/share-gdicdn/images/product/100052859/100052859_07H_1332x2000.jpg",
+        "price" :"6800",
+        "size" : "small",
+        "colour" :"blue" ,
+        "brand" :"levis",
+        "quantity":1
+    },
     {
         "id":2,
-        "imgUrl" : "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/2/23/195de7eb-dfb2-4d36-ba01-5c6f6e1e4e761614072396710-1.jpg",
-         "price" :"1200",
-         "size" : "small",
-         "colour" :"black" ,
-         "brand" :"shein"
+        "imgUrl" : "https://media.nastygal.com/i/nastygal/agg98253_black_xl",
+        "price" :"1800",
+        "size" : "large",
+        "colour" :"black" ,
+        "brand" :"ajio",
+        "quantity":1
     },
-
+    
     {
         "id":3,
-        "imgUrl" : "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQqoFpBiWmCZoEdT3RDVJshLj3MW2-P9yfyd57SahMZamPPE3msS9pR5MdIWq3WOmnbLcUqz0Qw6rqmTnoeZb5Ufmx5PKIxE_SSpa4djjA&usqp=CAE",
-         "price" :"700",
-         "size" : "small",
-         "colour" :"skyblue" ,
-         "brand" :"levis"
+        "imgUrl" : "https://fiver.media/cdn-thumb/280x420/e5p/images/mu/2019/05/19/light-pink-denim-jacket-light-pink-116705-5.jpg",
+        "price" :"2800",
+        "size" : "large",
+        "colour" :"pink" ,
+        "brand" :"ajio",
+        "quantity":1
     },
 
-    {
+       {
         "id":4,
-        "imgUrl" : "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/16091198/2022/1/28/5e414fd8-a6d8-4123-9b43-1792fcd8cf321643350766622-Tokyo-Talkies-Women-Mustard-Yellow-Crop-Biker-Jacket-6831643-1.jpg",
-         "price" :"1000",
-         "size" : "small",
-         "colour" :"yellow" ,
-         "brand" :"shein"
+       "imgUrl" : "https://i.pinimg.com/originals/d7/f3/41/d7f34127f13c9b0aa0647ab9b53feef2.jpg",
+        "price" :"900",
+        "size" : "small",
+        "colour" :"black" ,
+        "brand" :"gucci",
+        "quantity":1
     },
-
     {
         "id":5,
-        "imgUrl" : "https://assets.myntassets.com/f_webp,h_560,q_90,w_420/v1/assets/images/7772555/2018/11/21/35140744-8dc1-4ce7-9feb-56c7cc2b0ccf1542798726927-STREET-9-Women-Black-Solid-Satin-Bomber-Jacket-6061542798726594-1.jpg",
-         "price" :"2200",
-         "size" : "small",
-         "colour" :"blue" ,
-         "brand" :"gucci"
+        "imgUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi0PiIcja7sM7wAhfhdizGOpN0tbCAt05sbK-UlKBG_fY5OoelMknzk4oYBCHQ53HtBFY&usqp=CAU",
+        "price" :"4800",
+        "size" : "large",
+        "colour" :"brown" ,
+        "brand" :"ajio",
+        "quantity":1
     },
-    {
-        "id":6,
-        "imgUrl" : "https://images.bestsellerclothing.in/data/only/oct-12-2021/230022702_g1.jpg?width=1080&height=1355&mode=fill&fill=blur&format=auto",
-         "price" :"1300",
-         "size" : "small",
-         "colour" :"pink" ,
-         "brand" :"ajio"
-    },
-    {
-        "id":7,
-        "imgUrl" : "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15982484/2022/1/28/e47ad4d8-5d76-4704-96a6-0f5e8a3aba0b1643350694155-Tokyo-Talkies-Women-Black-Crop-Leather-Jacket-64716433506937-3.jpg",
-         "price" :"500",
-         "size" : "small",
-         "colour" :"black" ,
-         "brand" :"ajio"
-    },
-    {
-        "id":8,
-        "imgUrl" : "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14362698/2021/10/7/882eb546-67ff-4304-b626-9c0f785142741633606656885-Mast--Harbour-Women-Jackets-4791633606656397-3.jpg",
-         "price" :"700",
-         "size" : "small",
-         "colour" :"pink" ,
-         "brand" :"gucci"
-    },
+    
+    
 
-    {
-        "id":9,
-        "imgUrl" : "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15256736/2021/8/25/3852fe87-88a0-467c-a1bf-fcbbda8624941629897088201TokyoTalkiesWomenBlueWashedStripedCropTailoredJacket1.jpg",
-         "price" :"900",
-         "size" : "small",
-         "colour" :"skyblue" ,
-         "brand" :"ajio"
-    },
+{
+    "id":6,
+    "imgUrl" : "https://assets.ajio.com/medias/sys_master/root/20210830/wX8s/612cfaafaeb269a268820413/-473Wx593H-460967091-blue-MODEL.jpg",
+    "price" :"2800",
+    "size" : "small",
+    "colour" :"blue" ,
+    "brand" :"levis",
+    "quantity":1
+},
 
-    {
-        "id":10,
-        "imgUrl" : "https://assets.ajio.com/medias/sys_master/root/20201231/O7I3/5fedc949f997dd8c17b6a15a/-1117Wx1400H-460777991-lightpink-MODEL.jpg",
-         "price" :"3000",
-         "size" : "small",
-         "colour" :"pink" ,
-         "brand" :"shein"
-    },
+{
+    "id":7,
+    "imgUrl" : "https://assets.ajio.com/medias/sys_master/root/20210830/wX8s/612cfaafaeb269a268820413/-473Wx593H-460967091-blue-MODEL.jpg",
+    "price" :"2800",
+    "size" : "small",
+    "colour" :"blue" ,
+    "brand" :"levis",
+    "quantity":1
+},
+{
+    "id":8,
+    "imgUrl" : "https://i.pinimg.com/originals/03/3f/ac/033facfc6d69ee8462722a612f90c17a.jpg",
+    "price" :"1300",
+    "size" : "extralarge",
+    "colour" :"black" ,
+    "brand" :"gucci",
+    "quantity":1
+},
+{
+    "id":9,
+    "imgUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrJhbzX1cwTOIETVqZhRskA-QUasDkHwQb7Zn44vko9dRculEcOFZLHnwKoc9gJxr9OfQ&usqp=CAU",
+    "price" :"1800",
+    "size" : "large",
+    "colour" :"blue" ,
+    "brand" :"ajio",
+    "quantity":1
+},
 
-    {
-        "id":11,
-        "imgUrl" : "https://www.jayjays.com.au/MJ/aurora/images/products/large/940109_sagegreen_l.jpg",
-         "price" :"3200",
-         "size" : "small",
-         "colour" :"green" ,
-         "brand" :"levis"
-    },
-  
-    {
-        "id":12,
-        "imgUrl" : "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14231126/2021/8/31/0ced8374-b12c-457b-a2b6-53e3065fbc391630395989507-all-about-you-Women-Jackets-8931630395988880-1.jpg",
-         "price" :"1080",
-         "size" : "small",
-         "colour" :"yellow" ,
-         "brand" :"ajio"
-    }]
+{
+    "id":10,
+    "imgUrl" : "https://i.pinimg.com/originals/2d/53/4b/2d534b8578df0d7fa0010ff29a2c473f.jpg",
+    "price" :"1500",
+    "size" : "extralarge",
+    "colour" :"brown" ,
+    "brand" :"levis",
+    "quantity":1
+},
+{
+    "id":11,
+    "imgUrl" : "https://rukminim2.flixcart.com/image/332/398/ktrk13k0/jacket/8/7/y/xs-no-lady-pink-jkt-printcorners-original-imag7yzzt8fksp8y.jpeg?q=50",
+    "price" :"1200",
+    "size" : "small",
+    "colour" :"pink" ,
+    "brand" :"shein",
+    "quantity":1
+},
+{
+    "id":12,
+    "imgUrl" : "https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/14455420/2021/6/23/37bff78e-cce8-46de-9648-9d5be1d0eaf51624446043415-Leather-Retail-Women-Brown-Solid-Lightweight-Leather-Jacket--1.jpg",
+    "price" :"2900",
+    "size" : "extralarge",
+    "colour" :"brown" ,
+    "brand" :"gucci",
+    "quantity":1
+}
+    
+   ]

@@ -22,9 +22,24 @@ export const FrocksDetails = () => {
     //console.log(data)
          var arr = JSON.parse(localStorage.getItem("cartData")) || []
     const AddtoCart = (el)=>{
-          arr.push(el);
-          localStorage.setItem("cartData",JSON.stringify(arr));
-          navigate("/cart")
+         let cart= JSON.parse(localStorage.getItem("cartData"));
+         let temp=   cart.filter((elem)=>{
+                if(elem.id==el.id){
+                    return elem
+                }
+               
+                
+           })
+         if(temp.length==0){
+            arr.push(el);
+            localStorage.setItem("cartData",JSON.stringify(arr));
+            alert("Item add to  cart successful!!")
+       
+         }
+         else{
+             alert("Item is already in the cart!!")
+         }
+        
     }
 
     return(
