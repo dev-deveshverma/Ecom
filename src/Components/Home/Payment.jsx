@@ -19,27 +19,35 @@ export function Payment() {
     })
 
 
-    const HandleChange = (e) => {
+  
+
+
+const HandleChange = (e) => {
 
         const {id,value} = e.target;
         setFormData({...formData , [id] : value})
+      
     }
 
     const HandleSubmit = () => {
 
-      console.log(formData.cardNo.length)
-
-          navigate("/paymentsuccessful")
       
+      console.log(formData.cardNo)
 
-     
-    }
+      if(formData.name !=="" && formData.cardNo.length == 16 && formData.expiry.length == 5 && formData.cvv.length == 3   ){
+        alert("payment Sucessful") 
+        navigate("/paymentsuccessful")
+       
+      }
+      
+      else{
+          alert("Invalid Credential !")
+      }
+  }
 
   return (
     <>
-      <h1 id="mycart">Enter Your Payment Card Details</h1>
-      <div id='mycartdiv'> <img id ="mycart" src="https://i.pinimg.com/originals/f8/c4/22/f8c422a0a0e6793b3f9113d419c5143a.gif"></img></div>
-   
+    <h1 id="mycart">Enter Your Card Details</h1>
     <div className="paymentBox">
     <Box
       sx={{
@@ -47,22 +55,22 @@ export function Payment() {
         '& > :not(style)': { m: 1 },
       }}
     >
-      <TextField onClick={HandleChange}
+      <TextField onChange={HandleChange}
         id="name"
         label="Name"
       /> 
 
-     <TextField onClick={HandleChange}
+     <TextField onChange={HandleChange}
         id="cardNo"
         label="Card Number"
       /> 
 
-      <TextField onClick={HandleChange}
+      <TextField onChange={HandleChange}
         id="expiry"
         label="Expiry Date"
       /> 
 
-      <TextField onClick={HandleChange}
+      <TextField onChange={HandleChange}
         id="cvv"
         label="CVV"
       /> 
@@ -70,10 +78,8 @@ export function Payment() {
      {/* ---------------------- Button --------------------------------------- */}
 
 
-
-
     <Stack direction="row" spacing={2}>
-      <Button onClick={HandleSubmit} id='paymentBtn' variant="contained">Make Your Payment</Button>
+      <Button onClick={HandleSubmit} id='paymentBtn' variant="contained">Place Your Order</Button>
     </Stack>
  
     </Box>
