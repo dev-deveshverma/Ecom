@@ -27,23 +27,23 @@ export const MiddisDetails = () => {
     function AddToCart(el){
         let cart= JSON.parse(localStorage.getItem("cartData"))||[];
 
-         let temp=   cart.filter((elem)=>{
-                if(elem.id==el.id){
-                    return elem
-                }
+        let temp=   cart.filter((elem)=>{
+               if(elem.id==el.id){
+                   return elem
+               }
+              
                
-                
-           })
-         if(temp.length==0){
-            arr.push(el);
-               let cart= JSON.parse(localStorage.getItem("cartData"))||[];
-
-            alert("Item add to  cart successful!!")
-
-         }
-         else{
-             alert("Item is already in the cart!!")
-         }
+          })
+        if(temp.length==0){
+           arr.push(el);
+           localStorage.setItem("cartData",JSON.stringify(arr)||[]);
+           alert("Item add to  cart successful!!")
+        
+        }
+        else{
+            alert("Item is already in the cart!!")
+        }
+  
     }
     
 
