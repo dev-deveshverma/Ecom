@@ -4,7 +4,6 @@ import { useNavigate } from "react-router";
 export const Cart = () => {
   let total = 0;
   const [data, setData] = useState([]);
-  const [flag, setFlag] = useState(false);
   const navigate = useNavigate();
   const incrementQuantity = id => {
     let temp = data;
@@ -17,7 +16,7 @@ export const Cart = () => {
    
     localStorage.setItem("cartData",JSON.stringify([...updated]))
     let cartData = JSON.parse(
-      localStorage.getItem("cartData")
+      localStorage.getItem("cartData")|[]
     );
     setData([...cartData]);
     

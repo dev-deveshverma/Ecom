@@ -2,7 +2,7 @@ import { Button, TextField, Typography } from '@mui/material'
 import { Box } from '@mui/system'
 import React, { useEffect,useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import {Cart} from './Cart'
+  
 
 export default function Checkout() {
   const navigate= useNavigate()
@@ -14,12 +14,13 @@ export default function Checkout() {
   },[])
   return (
     <>
+    
     <Box sx={{width:"80%" , height:"600px" , margin:"auto" , marginTop:"50px",boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" , padding:"10px", alignItems:"center"}}>
     <Typography sx={{textAlign:"center" , fontFamily:"monospace" ,fontWeight:"bold" , fontSize:"19px" , borderBottom:"1px solid gray"}}>Fill the Shipping Details given bellow</Typography>
     <Box sx={{width:"100%" , display:"flex",justifyContent:"space-between" , gap:"10px" ,margin:"10px"}}>
     <Box sx={{width:"50%"}}>
     <Box sx={{margin:"auto" , marginTop:"20px",width:"100%", display:"flex", justifyContent:"space-between" ,flexWrap:"wrap"}}>
-    <TextField variant='standard' label="First Name"/>
+    <TextField variant='standard' label="First Name"  required/>
     <TextField variant='standard' label="Last Name"/>
     </Box>
     <Box sx={{margin:"auto" , marginTop:"20px",width:"100%", display:"flex", justifyContent:"space-evenly" ,flexWrap:"wrap"}}>
@@ -32,6 +33,7 @@ export default function Checkout() {
     <Box sx={{margin:"auto" , marginTop:"20px",width:"100%", display:"flex", justifyContent:"space-between" ,flexWrap:"wrap"}}>
     <TextField variant='standard' label="Pincode"/>
     <TextField variant='standard' label="Mobile No."/>
+
     </Box>
        <Box sx={{ margin:"auto" ,marginTop:"30px" , display:"flex" , justifyContent:"center"}}>
        <Button variant='contained' onClick={()=>{
@@ -39,6 +41,7 @@ export default function Checkout() {
        }}>Proceed To Payment</Button>
        </Box>
     </Box>
+
 
     <Box sx={{width:"50%"}}>
       <Typography sx={{textAlign:'center'}}>Current Order Status (Shipping Free)</Typography>

@@ -27,8 +27,15 @@ export function Payment() {
 
     const HandleSubmit = () => {
 
-        console.log(formData.cardNo.length)
-            navigate("/paymentsuccessful")
+      console.log(formData.cardNo.length)
+
+      if(formData.name!==""){
+          navigate("/paymentsuccessful")
+      }
+      
+      else{
+          alert("write correct details !")
+      }
 
      
     }
@@ -66,6 +73,8 @@ export function Payment() {
       /> 
     
      {/* ---------------------- Button --------------------------------------- */}
+
+
 
 
     <Stack direction="row" spacing={2}>
