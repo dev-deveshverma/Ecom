@@ -16,8 +16,7 @@ export const Cart = () => {
    
     localStorage.setItem("cartData",JSON.stringify([...updated]))
     let cartData = JSON.parse(
-      localStorage.getItem("cartData")|[]
-    );
+      localStorage.getItem("cartData")||[]);
     setData([...cartData]);
     
   };
