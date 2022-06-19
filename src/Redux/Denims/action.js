@@ -11,7 +11,7 @@ export const DenimData = (payload) => ({
 
 export const getDenimData = () => (dispatch) => {
 
-    axios.get("https://backend-ecom123.herokuapp.com/denims").then((res)=>{
+    axios.get("https://mac-project-backend.herokuapp.com/denims").then((res)=>{
         dispatch(DenimData(res.data))
     })
 }
