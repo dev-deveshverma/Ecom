@@ -9,9 +9,9 @@ export const DenimData = (payload) => ({
     payload : payload
 })
 
-export const getDenimData = () => (dispatch) => {
+export const getDenimData = (page) => (dispatch) => {
 
-    axios.get("https://mac-project-backend.herokuapp.com/denims").then((res)=>{
+    axios.get(`https://kapde.herokuapp.com/denims?page=${page}`).then((res)=>{
         dispatch(DenimData(res.data))
     })
 }
