@@ -10,7 +10,7 @@ export const JacketsData = (payload) => ({
 
 export const getJacketsData = () => (dispatch) => {
 
-    axios.get("https://backend-ecom123.herokuapp.com/jackets").then((res) => {
+    axios.get("https://mac-ecom.herokuapp.com/jackets").then((res) => {
         dispatch(JacketsData(res.data))
     })
 }
