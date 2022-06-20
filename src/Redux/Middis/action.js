@@ -10,7 +10,7 @@ export const MiddisData = (payload) => ({
 
 export const getMiddisData = () => (dispatch) => {
 
-    axios.get("http://localhost:3002/middis").then((res) => {
+    axios.get("https://mac-ecom.herokuapp.com/middis").then((res) => {
         dispatch(MiddisData(res.data))
     })
 }
