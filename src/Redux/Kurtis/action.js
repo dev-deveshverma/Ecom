@@ -11,7 +11,7 @@ export const kurtiData = (payload) => ({
 
 export const getKurtiData = () => (dispatch) => {
 
-    axios.get("https://backend-ecom123.herokuapp.com/kurtis").then((res)=>{
+    axios.get("https://mac-ecom.herokuapp.com/kurtis").then((res)=>{
         dispatch(kurtiData(res.data))
     })
 }
