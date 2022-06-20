@@ -10,7 +10,7 @@ export const FrocksData = (payload) => ({
 
 export const getFrocksData = () => (dispatch) => {
 
-    axios.get("https://backend-ecom123.herokuapp.com/frocks").then((res) => {
+    axios.get("https://mac-ecom.herokuapp.com/frocks").then((res) => {
         dispatch(FrocksData(res.data))
     })
 }
