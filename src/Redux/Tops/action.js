@@ -10,7 +10,7 @@ export const TopData = (payload) => ({
 
 export const getTopsData = () => (dispatch) => {
 
-    axios.get("https://backend-ecom123.herokuapp.com/tops").then((res) => {
+    axios.get("https://mac-ecom.herokuapp.com/tops").then((res) => {
         dispatch(TopData(res.data))
     })
 }
